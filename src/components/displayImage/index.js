@@ -20,13 +20,13 @@ const DisplayImage = () => {
             })
     }, []);
 
-    const renderImage = (uri) => {
-        return <img src={uri} />
+    const renderImage = (uri, key) => {
+        return <img src={uri} style={{ width: '33%', backgroundSize: 'cover', padding: '10px' }} />
     }
     return (
-        <div>
+        <div >
             {
-                imageList.map(i => renderImage(i.webformatURL))
+                imageList.map((i, key) => renderImage(i.webformatURL, key))
             }
 
         </div>

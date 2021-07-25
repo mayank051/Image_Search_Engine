@@ -9,7 +9,9 @@ function App() {
       <div className="Search">
         <CustomSearchBar />
       </div>
-      <DisplayImage />
+      <div>
+        <DisplayImage />
+      </div>
     </div>
   );
 }

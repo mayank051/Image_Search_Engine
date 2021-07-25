@@ -4,6 +4,7 @@
 
 .Search {
   text-align: center;
-  margin: '10%';
-  background-color: blueviolet;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color: blueviolet; */
 }
